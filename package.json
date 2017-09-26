@@ -1,0 +1,22 @@
+{
+  "name": "rfw",
+  "version": "0.0.1",
+  "description": "Rfw",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backme80/Rfw.git"
+  },
+  "keywords": [
+    "Rfw"
+  ],
+  "author": "backme80",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backme80/Rfw/issues"
+  },
+  "homepage": "https://github.com/backme80/Rfw#readme"
+}
