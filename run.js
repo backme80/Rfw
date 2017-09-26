@@ -1,3 +1,13 @@
-let fna = (next) => { return next(1) },
-    fnb = (a, next) => { return fna((val) => { return next((2 * a) + val) }) }
-fnb(4, (val) => { console.log(val) })
+const express = require('express')
+const app = express()
+
+app.set('view engine', 'ejs');
+app.set('views', './pages');
+
+app.use('/public', express.static(__dirname + '/public'))
+
+app.get('/', function(req, res){
+    return res.render('main');
+})
+
+app.listen(3000)
